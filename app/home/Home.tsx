@@ -8,7 +8,9 @@ const Home = () => {
   return (
     <View style={styles.container}>
       <View style={styles.upperView}>
-        <Text style={{color:"white", fontSize:70}}>Olá!</Text>
+        <Text style={{ color: "white", fontSize: 70, fontWeight: "bold" }}>
+          Olá!
+        </Text>
         <Text style={styles.textUpper}>
           É um prazer recebê-lo na Pokédex! Explore e descubra tudo sobre seus
           Pokémon favoritos.
